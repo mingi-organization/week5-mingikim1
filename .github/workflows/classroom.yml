@@ -157,8 +157,8 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: test3-3
-        setup-command: gcc code/4-3.c -o code/4-3.exe
-        command: "./code/4-3.exe"
+        setup-command: gcc code/3-3.c -o code/3-3.exe
+        command: "./code/3-3.exe"
         input: ''
         expected-output: '7
 
